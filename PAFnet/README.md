@@ -23,6 +23,23 @@ python train.py --data_dir [DATADIR] --learning_rate 1e-2 --num_epoch 1000, --de
 python test.py --data_dir [DATADIR] --model_file [TRAINED MODEL PATH] --device 'cuda:0'
 ```
 
+# Visualization
+
+The features of the above image extracted by AFnet (after 12-th layer) are shown as follows:
+
+Features Extracted by Focuser0 Of Scene1
+
+![](figs/FeaturesOfFocuser0OfImage89.svg)
+
+Features Extracted by Focuser0 Of Scene2
+
+![](figs/FeaturesOfFocuser0OfImage1994.svg)
+
+Features Extracted by Focuser0 Of Scene3
+
+![](figs/FeaturesOfFocuser0OfImage7884.svg)
+
+
 
 # Citation
 
