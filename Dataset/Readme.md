@@ -1,6 +1,8 @@
 
 # Dataset
 
+Please see [AutofocusSAR github](https://github.com/aisari/AutofocusSAR) or [AutofocusSAR webpage](https://aisari.iridescent.ink/AutofocusSAR/) for more details.
+
 ## ALOS PALSAR
 
 ### Obtain RAW SAR data
@@ -16,7 +18,7 @@ Nine RAW SAR images (L1.0) are acquired from [https://asf.alaska.edu/](https://a
 
 ## Making Dataset
 
-The download nine sar raw images are imaged by Range Doppler Algorithm (RDA). Since the orignal image is very large, sub-region with $8192×8192$ is selected for each image. The selected regions are shown as follows: 
+The download nine sar raw images are imaged by Range Doppler Algorithm (RDA). Since the orignal image is very large, sub-region with size of $8192×8192$ is selected for each image. The selected regions are shown as follows: 
 
 |   |   |   |
 |---|---|---|
@@ -37,5 +39,30 @@ Table3: Information of  selected regions.
 | 7  | ALPSRP269950430  | Kaliganj   | (18000, 1000)  | 7195  | 2159.8272  |
 | 8  | ALPSRP273680670  | SimiValley | (15000, 2000)  | 7185  | 2155.1724  |
 | 9  | ALPSRP278552780  | Toledo     | (15000, 1000)  | 7178  | 2141.3276  |
+
+
+
+The dataset can be downloaded from [BaiduYunPan](https://pan.baidu.com/s/1BW8ZsP2TXqNU1MJFQrzZBQ) (accessed on 13 August 2021), the extraction code is ``d7fk``.
+
+
+
+# Citation
+
+If you find the dataset is useful, please kindly cite our paper and star our pakcage [AutofocusSAR](https://github.com/aisari/AutofocusSAR) on GitHub:
+
+```bib
+@article{Liu2021Fast,
+  title={Fast SAR Autofocus Based on Ensemble Convolutional Extreme Learning Machine},
+  author={Liu, Zhi and Yang, Shuyuan and Feng, Zhixi and Gao, Quanwei and Wang, Min},
+  journal={Remote Sensing},
+  volume={13},
+  number={14},
+  pages={2683},
+  year={2021},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
+
+
 
 
